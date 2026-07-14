@@ -2,6 +2,10 @@
 
 ## Windows installer
 
+> **Important note for existing windows users**
+>
+> If the installer does not update an existing installation automatically, uninstall the previous version from **Settings > Apps**, then run the new installer again.
+
 1. Download `BlusArkLootFinder_<version>_setup.exe` from the release.
 2. Run the installer.
 3. Start the app from the installed shortcut.
@@ -12,6 +16,8 @@
 2. Extract it to a folder of your choice.
 3. Run one of the launchers:
 
+The extracted folder will also contain `BlusArkLootFinder_<version>.jar`, which is the backend application used by the launchers.
+
 ### Windows
 
 - `run-BlusArkLootFinder.bat`
@@ -21,6 +27,8 @@ How to run it:
 1. Extract the ZIP fully before starting the app.
 2. Open the extracted folder.
 3. Double-click `run-BlusArkLootFinder.bat`.
+
+If you are on Windows, use the `.bat` launcher instead of the `.sh` launcher, even if you normally use Git Bash.
 
 If Windows shows a security warning, allow the file to continue.
 

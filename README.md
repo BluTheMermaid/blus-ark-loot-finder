@@ -29,6 +29,10 @@ Each release is expected to provide:
 
 ### Windows installer
 
+> **Important note for existing windows users**
+> 
+> If the installer does not update an existing installation automatically, uninstall the previous version from **Settings > Apps**, then run the new installer again.
+
 Use the `.exe` if you want the normal desktop installation experience.
 
 ### Portable ZIP
@@ -37,7 +41,7 @@ Use the `.zip` if you want to run the Quarkus app directly from a portable bundl
 
 The ZIP contains:
 
-- `BlusArkLootFinder.jar`
+- `BlusArkLootFinder_<version>.jar`
 - `run-BlusArkLootFinder.bat`
 - `run-BlusArkLootFinder.sh`
 
@@ -48,6 +52,8 @@ The ZIP contains:
 - Extract the ZIP first
 - Open the extracted folder
 - Double-click `run-BlusArkLootFinder.bat`
+
+If you are on Windows, use the `.bat` launcher instead of the `.sh` launcher, even if you normally use Git Bash.
 
 If Windows shows a security prompt, choose the option to continue running the file.
 
